@@ -103,9 +103,50 @@ section {
   color: #fdf5e8;
   text-decoration: none;
   border-radius: 9px;
-  display: flex;
-  align-items: center;
 }
 .btn:hover {
   background-color: #cf8e55;
+}
+.about{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 2.5rem;
+  /* background-image: url(coffee\ img.jpg); */
+  background-color: #714644;
+  max-width: 1163px;
+  margin: 20px auto;
+  padding: 15px 20px ;
+}
+.about-img img{
+  border-radius: 1.5rem;
+  max-width: 100%;
+  width: 73%;
+}
+.about-text h2{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e6d8bd;
+}
+.about-text h2:hover{
+  color: #000;
+}
+.about-text p{
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1.1rem ;
+  font-weight: 600;
+  color: #ffbe98;
+}
+.about-text a{
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  margin-left: 42%; ;
+  color: #e6d8bd;
+}
+.about-text a:hover{
+  background-color: #cf8e55;
+  border-radius: 9px;
 }
