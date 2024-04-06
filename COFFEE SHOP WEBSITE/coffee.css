@@ -150,3 +150,63 @@ section {
   background-color: #cf8e55;
   border-radius: 9px;
 }
+.heading{
+  text-align: center;
+}
+.heading h2{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border: 1px solid #B8621B;
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1.5rem;
+  margin-top: 3rem;
+
+}
+.product-container .box{
+  position: relative;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 12px 12px 2px 1px #714644;
+  background-color: #A87C7C;
+}
+.product-container .box img{
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  padding: 20px;
+  background-color: #714644;
+  border-radius: 0.2rem;
+}
+.product-container .box h3{
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0.5rem 0 0.5rem;
+}
+.product-container .box .content{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.product-container .box .content span{
+  padding: 0.3rem;
+  color: #fff;
+}
+.product-container .box .content a{
+  color: #fff;
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  text-transform: capitalize;
+}
+.product-container .box .content a:hover{
+  background-color: #b78c56;
+}
+
