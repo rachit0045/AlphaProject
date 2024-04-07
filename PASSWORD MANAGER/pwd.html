@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD MANAGER</title>
+    <link rel="stylesheet" href="pwd.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>password Manager</h2>
+        <div class="inputs">
+            <input type="text" placeholder="website" title="Enter your website">
+            <input type="text" placeholder="username" title="Enter your username">
+            <input type="password" placeholder="password" title="Enter your password">
+        <div class="btn">
+            <button onclick="addPassword()">Save Password</button>
+            <ul class="password-list" id="passwordList"></ul>
+        </div>
+    </div>
+    <!-- link js -->
+    <script src="pwd.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+body {
+  background-color: bisque;
+}
+.container {
+  max-width: 50%;
+  background-color: brown;
+  padding: 20px;
+  margin: 50px auto;
+  border: 3px solid black;
+  border-radius: 1.5rem;
+}
+.container h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+.inputs {
+  display: grid;
+  gap: 1.4rem;
+  padding: 30px;
+  margin: 20px;
+}
+.inputs input {
+  padding: 8px;
+  border: 2px solid black;
+}
+.btn button {
+  text-align: center;
+  margin-left: 40%;
+  padding: 10px;
+  background-color: cadetblue;
+  font-size: 0.93rem;
+  border-radius: 1.4rem;
+  cursor: pointer;
+  border: 1px solid black;
+}
+ul {
+  border: 2px solid bisque;
+  border-radius: 0.4rem;
+   display: grid;
+  gap: 0.3rem;
+}
