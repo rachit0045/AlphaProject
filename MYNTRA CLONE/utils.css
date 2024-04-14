@@ -1,0 +1,46 @@
+header {
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: sticky;
+  top: 0px;
+  background: white;
+  height: 66px;
+}
+.container {
+  padding: 0px 4vw;
+  margin: 7px 0px;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.semi-bold {
+  font-weight: bolder;
+}
+.section1 {
+  background: #fff;
+}
+.mx-2 {
+  margin: 5px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.benner-title {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  margin: 50px 0 37px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
