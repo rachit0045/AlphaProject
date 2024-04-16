@@ -72,7 +72,6 @@ h2 {
 }
 .function{
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   width: auto;
   background-color: rgb(32, 108, 60);
@@ -103,10 +102,7 @@ h2 {
   background-color: transparent;
 }
 .function .music .details .name{
-  /* display: flex; */
-  /* justify-content: left; */
   font-size: 3vh;
-  /* background-color: brown; */
   justify-content: left;
   display: flex;
   background-color: transparent;
@@ -122,15 +118,12 @@ h2 {
   background-color: transparent;
 }
 .function .music .love img{
-  /* filter: invert(); */
   background-color: transparent;
   padding: 0px;
   margin-left: 2vh;
   margin-right: 2vh;
   width: 4vh;
   height: 4vh;
-  /* background-color: ; */
-  /* fill: red; */
 }
 .function .playback{
   display: flex;
@@ -168,7 +161,6 @@ h2 {
 .function .playback .lower{
   width: 50vw;
   background-color: transparent;
-  /* height: 5vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,6 +212,7 @@ h2 {
   padding-left: 1vh;
   padding-right: 1vh;
 }
+
 footer {
   background-color: #333;
   color: white;
